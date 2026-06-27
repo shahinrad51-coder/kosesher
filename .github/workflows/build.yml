@@ -11,7 +11,7 @@ jobs:
       - name: Build with Buildozer
         uses: ArtemSBulgakov/buildozer-action@v4
         with:
-          buildozer_version: latest
+          buildozer_version: stable
         env:
           PLATFORM: android
           
